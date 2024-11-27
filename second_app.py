@@ -11,8 +11,6 @@ st.write_stream("The quick brown fox jumps over the lazy dog")
 
 st.divider()
 
-Hello again
-
 st.markdown("Hello **World** in markdown")
 
 
