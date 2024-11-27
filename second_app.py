@@ -10,14 +10,12 @@ st.write("Hello **world**")
 
 st.divider()
 
-st.markdown("Hello **World** in markdown")
+data = {'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        'Activity': ['run', 'scream', 'laugh', 'jump', 'talk']}
 
+df = pd.DataFrame(data)
 
-st.write_stream(
-
-
-
-
+st.dataframe(df)
 
 
 
