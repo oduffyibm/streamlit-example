@@ -17,6 +17,8 @@ df = pd.DataFrame(data)
 
 st.dataframe(df)
 
+edited = st.edited(df)
+
 
 
 
