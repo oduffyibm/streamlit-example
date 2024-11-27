@@ -7,7 +7,6 @@ st.title("This app is awesome")
 st.subheader("And this is the subheader")
 
 st.write("Hello **world**")
-st.write_stream("The quick brown fox jumps over the lazy dog")
 
 st.divider()
 
